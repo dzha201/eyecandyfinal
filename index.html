@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="media\favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+
+    <title>eye candy cinemas</title>
+<!--
+    <link rel="stylesheet" href="css/normalise.css">-->
+    <link rel="stylesheet" href="css/style_b.css">
+
+
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="mainLogo">
+
+            <a class="nav-link" aria-current="page" href="index.html" style="text-decoration: none; color: black;float: right;">
+            <img src="media\logofinal.png"alt="" style="margin:none;">
+            </a>
+          </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <button class="btn " onclick="window.location.href='index.html'" style="text-decoration: none; background-color: black;padding: 35px 20px;"><a class ="linkTag" href="#" style="text-decoration:none;"><b>Featured</b></a></button>
+            </li>
+            <li class="nav-item">
+              <button class="btn " onclick="window.location.href='movies.html'" style="text-decoration: none;padding: 35px 20px;"><a class= "linkTag" href="movies.html" style="text-decoration:none;">Movies</a></button>
+
+            </li>
+            <li class="nav-item">
+              <button class="btn btn btnHeader" onclick="window.location.href='comingsoon.html'" style="text-decoration: none;padding: 35px 20px;"><a class ="linkTag" href="comingsoon.html" style="text-decoration:none;">Coming Soon</a></button>
+
+            </li>
+            <li class="nav-item">
+              <button class="btn btn btnHeader" onclick="window.location.href='cinemas.html'" style="text-decoration: none;padding: 35px 20px;"><a class ="linkTag" href="cinemas.html" style="text-decoration:none;">Cinemas</a></button>
+
+            </li>
+        </ul>
+
+          </div>
+
+      </div>
+    </nav>
+<!-- Carousel slides -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="10000">
+        <video class="videosize"  autoplay="autoplay" loop="loop" muted>
+          <source src="media\kongtease3.mp4"  class="d-block w-100" alt="...">
+        </video>
+
+      </div>
+
+    <div class="carousel-item" data-bs-interval="6000">
+        <img src="media\raya4.jpg" class="d-block w-100" height="700"alt="...">
+    </div>
+    <div class="slideCaption">
+
+    </div>
+
+    <div class="carousel-item" data-bs-interval="6000">
+        <img src="media\kidspromobanner.jpg" class="d-block w-100" height="700"alt="...">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="6000">
+        <img src="media\soundpromo.png" class="d-block w-100" height="700"alt="...">
+    </div>
+
+    </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+<img class="sticky" src="media\jerrybannerfinal.jpg" alt="Avatar">
+<img class="sticky2" src="media\jerrybannerfinal.jpg" alt="Avatar">
+
+    <!-- Now showing movies -->
+
+  <div class="nowShowing">
+
+    <div class="nowShowTitle">
+      <br>
+      <h1><b>Now Showing</b></h1>
+    </div>
+
+    <div class="movieSlides">
+
+
+
+         <div class="kongShowing">
+           <a href="kong.html">
+            <img class="kongBanner"src="media\kongbannerfinal2.jpg" alt="">
+            <div class="bookKong"
+            <button type="button" class="btn btn-warning" onclick="window.location.href='kong.html'" style="font-size: 28px; color: white;">Book Tickets</button>
+            </div>
+           </a>
+
+         </div>
+
+     <br>
+
+        <div class="rabbitShowing">
+          <a href="rabbit.html">
+           <img class="rabbitBanner" src="media\rabbit2finalbanner1.jpg" alt="">
+           <div class="bookRabbit"
+           <button type="button" class="btn btn-warning" onclick="window.location.href='rabbit.html'" style="font-size: 28px; color: white;">Book Tickets</button>
+           </div>
+          </a>
+        </div>
+
+    <br>
+
+       <div class="esportShowing">
+         <a href="esport.html">
+          <img class="esportBanner" src="media\esportbanner2.png" alt="">
+          <div class="bookEsport"
+          <button type="button" class="btn btn-warning" onclick="window.location.href='#.html'" style="font-size: 28px; color: white;">More Info</button>
+          </div>
+         </a>
+       </div>
+   <br>
+
+
+  </div>
+</div>
+
+
+
+
+<div class="bottomStrip">
+
+
+    <div class="bottomContact">
+      <a class ="linkTag" href="contact.html" style="text-decoration:none;">Contact</a>
+    </div>
+
+     <div class="bottomOffers">
+       <a class ="linkTag" href="offers.html" style="text-decoration:none;">Special Offers</a>
+     </div>
+
+    <div class="bottomGiftstore">
+      <a class ="linkTag" href="#" style="text-decoration:none;">Giftstore</a>
+    </div>
+
+    <div class="bottomPrivacy">
+      <a class ="linkTag" href="privacy.html" style="text-decoration:none;">Privacy</a>
+    </div>
+
+    <div class="bottomYTlogo">
+      <a href="http://youtube.com">
+           <img src="media\youtube1.png" alt="">
+    </div>
+
+    <div class="bottomFBlogo">
+      <a href="http://facebook.com">
+           <img src="media\fblogo1.png" alt="">
+    </div>
+
+    <div class="bottomIGlogo">
+      <a href="http://instagram.com">
+           <img src="media\IGlogo1.png" alt="">
+    </div>
+
+</div>
+
+  </body>
+</html>

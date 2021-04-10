@@ -1,0 +1,447 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+  background-color: #E40a0c;
+  text-decoration: none;
+}
+
+.videosize {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.videosize video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn:hover {
+  background-color: #E40a0c;
+  color: white;
+
+}
+
+
+.linkTag {
+color: white;
+font-family: Quicksand;
+font-size: 24px;
+}
+.linkTag:hover {
+  color: white;
+  font-weight: bold;
+
+}
+.nowShowing {
+  font-family: Quicksand;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+
+}
+.nowShowTitle {
+  font-family: Quicksand;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 80px;
+  position: absolute;
+  top: 825px;
+  width: 1903px;
+
+}
+.movieSlides {
+  height: 1150px;
+  background-color: black;
+}
+.movieSlidesMovies {
+  height: 2250px;
+  background-color: black;
+}
+
+.leftAds{
+
+
+}
+.rightAds{
+
+}
+
+.bookNowHead {
+  color: white;
+  font-family: Quicksand;
+  position: absolute;
+  top: 130px;
+  left: 860px;
+}
+.kongPageTitle {
+  color: white;
+  position: absolute;
+  top: 270px;
+  left: 370px;
+  font-family: Quicksand;
+
+}
+
+.sessionTable {
+  position: absolute;
+  top: 395px;
+  left: 660px;
+}
+
+.bookKong {
+  display: none;
+  position: absolute;
+  background-color: black;
+  font-family: Quicksand;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  top: 260px;
+  left: 420px;
+}
+
+.bookRabbit {
+  display: none;
+  position: absolute;
+  background-color: black;
+  font-family: Quicksand;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  top: 250px;
+  left: 420px;
+}
+
+.bookEsport {
+  display: none;
+  position: absolute;
+  background-color: black;
+  font-family: Quicksand;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  top: 250px;
+  left: 450px;
+}
+
+.kongShowing{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 1000px;
+
+}
+
+.bookKong:hover {
+  display: block;
+}
+.bookRabbit:hover {
+  display: block;
+}
+.bookEsport:hover {
+  display: block;
+}
+
+.kongBanner:hover + .bookKong{
+  display: block;
+
+}
+.rabbitBanner:hover + .bookRabbit{
+  display: block;
+
+}
+.esportBanner:hover + .bookEsport{
+  display: block;
+
+}
+.kongMovie{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 1000px;
+
+}
+
+.kongDesc {
+  font-family: Quicksand;
+  position: absolute;
+  color: white;
+  top: 1050px;
+  left: 730px;
+  text-align: left;
+}
+.rabbitDesc {
+  font-family: Quicksand;
+  position: absolute;
+  color: white;
+  top: 1050px;
+  left: 730px;
+  text-align: left;
+}
+
+
+.kongDescTitle {
+  font-family: Quicksand;
+  color: white;
+  position: absolute;
+  top: 995px;
+  left: 730px;
+}
+.rabbitDesc {
+  font-family: Quicksand;
+  position: absolute;
+  color: white;
+  top: 1645px;
+  left: 730px;
+}
+
+.rabbitDescTitle {
+  font-family: Quicksand;
+  color: white;
+  position: absolute;
+  top: 1590px;
+  left: 730px;
+}
+.rayaDesc {
+  font-family: Quicksand;
+  position: absolute;
+  color: white;
+  top: 2245px;
+  left: 730px;
+  text-align: left;
+}
+
+.rayaDescTitle {
+  font-family: Quicksand;
+  color: white;
+  position: absolute;
+  top: 2190px;
+  left: 730px;
+}
+.wonderDesc {
+  font-family: Quicksand;
+  position: absolute;
+  color: white;
+  top: 2845px;
+  left: 730px;
+  text-align: left;
+}
+
+.wonderDescTitle {
+  font-family: Quicksand;
+  color: white;
+  position: absolute;
+  top: 2790px;
+  left: 730px;
+}
+.chaosDesc {
+  font-family: Quicksand;
+  position: absolute;
+  color: white;
+  top: 3445px;
+  left: 730px;
+  text-align: left;
+}
+
+.chaosDescTitle {
+  font-family: Quicksand;
+  color: white;
+  position: absolute;
+  top: 3395px;
+  left: 730px;
+}
+.rabbitShowing{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 1550px;
+
+}
+.rabbitMovie{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 1600px;
+
+}
+.esportShowing{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 2100px;
+
+}
+.rayaMovie{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 2200px;
+
+}
+.wonderMovie{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 2800px;
+
+}
+
+.chaosMovie{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 3400px;
+
+}
+
+.kongBanner:hover{
+  opacity: 50%;
+}
+.rabbitBanner:hover{
+  opacity: 50%;
+}
+.esportBanner:hover{
+  opacity: 50%;
+}
+
+
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+margin-top: 170px;
+  left: 255px;
+  z-index: 999;
+}
+img.sticky2 {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 170px;
+  top: 40px;
+  left: 1478px;
+  z-index: 999;
+}
+img.sticky3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+margin-top: 170px;
+  left: 165px;
+  z-index: 999;
+}
+img.sticky4 {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 170px;
+  top: 40px;
+  left: 1568px;
+  z-index: 999;
+}
+
+
+
+.bottomStrip {
+  background-color: #E40a0c;
+  position: absolute;
+  top: 2800px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  height: 95px;
+  width: 1903px;
+}
+.bottomStripMovies {
+  background-color: #E40a0c;
+  position: absolute;
+  top: 4100px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  height: 95px;
+  width: 1903px;
+}
+.bottomBookNow {
+  background-color: #E40a0c;
+  position: absolute;
+  top: 1000px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  height: 95px;
+  width: 1903px;
+}
+
+.bottomCopyright {
+  position: absolute;
+  left: 1px;
+  font-size: 14px;
+  top: 60px;
+
+}
+
+.bottomContact {
+  position: absolute;
+  left: 450px;
+  font-size: 22px;
+  top: 30px;
+
+}
+.bottomOffers {
+  position: absolute;
+  left: 600px;
+  font-size: 22px;
+  top: 30px;
+
+}
+.bottomGiftstore {
+  position: absolute;
+  left: 800px;
+  font-size: 22px;
+  top: 30px;
+
+}
+.bottomPrivacy {
+  position: absolute;
+  left: 950px;
+  font-size: 22px;
+  top: 30px;
+
+
+}
+.bottomYTlogo {
+  position: absolute;
+  left: 1140px;
+  top: 15px;
+  width: 1%;
+
+}
+.bottomFBlogo {
+  position: absolute;
+  left: 1225px;
+  top: 15px;
+  width: 1%;
+}
+.bottomIGlogo {
+  position: absolute;
+  left: 1300px;
+  top: 15px;
+  width: 1%;
+}

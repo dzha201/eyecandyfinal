@@ -1,0 +1,208 @@
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: #E40a0c;
+  text-decoration: none;
+}
+
+.videosize {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.videosize video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn:hover {
+  background-color: white;
+  color: green;
+
+}
+
+.linkTag {
+color: black;
+font-family: Quicksand;
+font-size: 24px;
+}
+.linkTag:hover {
+  color: black;
+
+}
+.nowShowing {
+  font-family: Quicksand;
+  text-align: center;
+  background-color: white;
+  color: white;
+
+
+}
+.nowShowTitle {
+  font-family: Quicksand;
+  text-align: center;
+  color: black;
+  background-color: white;
+  height: 80px;
+  position: absolute;
+  top: 825px;
+  width: 1903px;
+
+}
+.movieSlides {
+  height: 1150px;
+  background-color: white;
+}
+
+.leftAds{
+
+
+}
+.rightAds{
+
+}
+
+.kongShowing{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 1000px;
+
+}
+.rabbitShowing{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 1550px;
+
+}
+.esportShowing{
+  overflow: hidden;
+  position: absolute;
+  left: 430px;
+  top: 2100px;
+
+}
+
+.kongShowing:hover{
+  opacity: 50%;
+}
+.rabbitShowing:hover{
+  opacity: 50%;
+}
+.esportShowing:hover{
+  opacity: 50%;
+}
+
+
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+margin-top: 170px;
+  left: 255px;
+  z-index: 999;
+}
+img.sticky2 {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 170px;
+  top: 40px;
+  left: 1478px;
+  z-index: 999;
+}
+
+
+
+
+
+
+.bottomStrip {
+  background-color: #E40a0c;
+  position: absolute;
+  top: 2800px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  height: 95px;
+  width: 1903px;
+  text-decoration: none;
+}
+
+.bottomCopyright {
+  position: absolute;
+  left: 1px;
+  font-size: 14px;
+  top: 60px;
+  text-decoration: none;
+
+}
+
+.bottomContact {
+  position: absolute;
+  left: 450px;
+  font-size: 22px;
+  top: 30px;
+  text-decoration: none;
+
+}
+.bottomOffers {
+  position: absolute;
+  left: 600px;
+  font-size: 22px;
+  top: 30px;
+  text-decoration: none;
+
+}
+.bottomGiftstore {
+  position: absolute;
+  left: 800px;
+  font-size: 22px;
+  top: 30px;
+  text-decoration: none;
+
+}
+.bottomPrivacy {
+  position: absolute;
+  left: 950px;
+  font-size: 22px;
+  top: 30px;
+  text-decoration: none;
+
+
+}
+.bottomYTlogo {
+  position: absolute;
+  left: 1140px;
+  top: 15px;
+  width: 1%;
+
+}
+.bottomFBlogo {
+  position: absolute;
+  left: 1225px;
+  top: 15px;
+  width: 1%;
+}
+.bottomIGlogo {
+  position: absolute;
+  left: 1300px;
+  top: 15px;
+  width: 1%;
+}
